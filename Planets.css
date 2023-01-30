@@ -12,6 +12,11 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  color: aliceblue;
+  text-align: center;
+}
+
 img {
   border-radius: 50px;
   padding: 5px;
@@ -39,4 +44,16 @@ footer {
 .navbar {
   position: fixed;
   width: 100%;
+}
+
+section {
+  background: grey;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 40%;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
