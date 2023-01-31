@@ -34,17 +34,19 @@ img:hover {
 .title {
   color: aliceblue;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 footer {
   text-align: center;
   color: aliceblue;
-  margin-top: 10px;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 
 .navbar {
-  position: fixed;
   width: 100%;
+  margin-bottom: 40px;
 }
 
 section {
@@ -57,4 +59,10 @@ section {
   color: white;
   text-align: center;
   padding: 10px;
+}
+
+.intro {
+  text-align: center;
+  color: aliceblue;
+  font-size: 20px;
 }
