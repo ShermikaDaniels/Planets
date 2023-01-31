@@ -1,5 +1,5 @@
 body {
-  background-image: url("./images/jupiter-background.png");
+  background-image: url("../images/pluto.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -16,9 +16,10 @@ section {
   background: none;
   border-radius: 5px;
   box-shadow: 0 10px 20px;
-  margin-top: 50px;
+  margin: 50px;
   width: 40%;
   color: white;
+  padding: 20px;
 }
 
 img {

@@ -1,21 +1,25 @@
 body {
-  background-image: url("./images/solar-system.png");
+  background-image: url("../images/mercury-background.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Lato", sans-serif;
 }
 
 h1 {
   text-align: center;
 }
 
-h3 {
-  color: aliceblue;
-  text-align: center;
+section {
+  background: none;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px;
+  margin: 50px;
+  width: 40%;
+  color: white;
+  padding: 20px;
 }
 
 img {
@@ -24,11 +28,6 @@ img {
   width: 200px;
   height: 200px;
   object-fit: cover;
-  box-shadow: 0 10px 20px gray;
-}
-
-img:hover {
-  background-color: blue;
 }
 
 .title {
@@ -39,22 +38,9 @@ img:hover {
 footer {
   text-align: center;
   color: aliceblue;
-  margin-top: 10px;
 }
 
 .navbar {
   position: fixed;
   width: 100%;
-}
-
-section {
-  background: grey;
-  border-radius: 5px;
-  box-shadow: 0 10px 20px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  width: 40%;
-  color: white;
-  text-align: center;
-  padding: 10px;
 }
