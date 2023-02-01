@@ -1,21 +1,25 @@
 body {
-  background-image: url("../images/solar-system.png");
+  background-image: url("../images/earth-background.png");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Lato", sans-serif;
 }
 
 h1 {
   text-align: center;
 }
 
-h3 {
-  color: aliceblue;
-  text-align: center;
+section {
+  background: none;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px;
+  margin: 50px;
+  width: 40%;
+  color: white;
+  padding: 20px;
 }
 
 img {
@@ -24,45 +28,107 @@ img {
   width: 200px;
   height: 200px;
   object-fit: cover;
-  box-shadow: 0 10px 20px gray;
-}
-
-img:hover {
-  background-color: blue;
 }
 
 .title {
   color: aliceblue;
   text-align: center;
-  margin-bottom: 20px;
 }
 
 footer {
   text-align: center;
   color: aliceblue;
-  margin-top: 40px;
-  margin-bottom: 30px;
 }
 
 .navbar {
+  position: fixed;
   width: 100%;
-  margin-bottom: 40px;
 }
 
-section {
-  background: grey;
-  border-radius: 5px;
-  box-shadow: 0 10px 20px;
+.button {
   margin: 0 auto;
-  margin-bottom: 20px;
-  width: 40%;
-  color: white;
   text-align: center;
-  padding: 10px;
 }
 
-.intro {
-  text-align: center;
+button {
+  background-color: blue;
   color: aliceblue;
-  font-size: 20px;
+  border-radius: 9px;
+}
+
+button:hover {
+  box-shadow: 0 10px 20px gray;
+  background-color: blueviolet;
+}
+
+.earth {
+  background-image: url("../images/earth-background.png");
+}
+
+.jupiter {
+  background-image: url("../images/jupiter-background.png");
+}
+
+.mars {
+  background-image: url("../images/mars-background.png");
+}
+
+.mercury {
+  background-image: url("../images/mercury-background.png");
+}
+
+.moon {
+  background-image: url("../images/moon-background.png");
+}
+
+.neptune {
+  background-image: url("../images/neptune-background.png");
+}
+
+.pluto {
+  background-image: url("../images/pluto.png");
+}
+
+.saturn {
+  background-image: url("../images/saturn-background.png");
+}
+
+.solarsystem {
+  background-image: url("../images/solar-system.png");
+}
+
+.sun {
+  background-image: url("../images/sun-backgound.png");
+}
+
+.uranus {
+  background-image: url("../images/uranus-background.png");
+}
+
+.venus {
+  background-image: url("../images/venus-background.png");
+}
+
+@media (max-width: 900px) {
+  section {
+    background: grey;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 60%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+  }
+
+  h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .navbar-brand {
+    font-size: 14px;
+  }
 }
